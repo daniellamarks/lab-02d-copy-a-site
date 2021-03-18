@@ -74,7 +74,7 @@ nav {
 
 .made-possible {
     text-align: center;
-    padding: 20px 0px;
+    padding: 30px 0px;
 }
 
 .title{
@@ -124,30 +124,79 @@ nav {
 
 .live-anywhere-card-flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     /* border: 1px solid black; */
-
-}
-
-.live-anywhere-card {
-    width: 20%;
+    font-size: .75em;
 }
 
 .live-anywhere-card img {
+    width: 185px;
     border-radius: 5%;
+
 }
 
 .become-host {
-    border-radius: 5%;
+    /* width: 100%; */
+    border-radius: 15px;
+    background-image: url(../images/become-host-image.webp);
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    margin-top: 50px;
+    display: flex;
+    padding: 0px;
+}
+
+.become-host-text-wrapper {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    padding: 0 60px;
+    justify-content: center;
+}
+
+.become-host-text-big {
+    font-size: 2em;
+}
+
+.become-host-text-small {
+    font-size: .75em;
 }
 
 .experience-section {
     display: flex;
     flex-direction: column;
+    /* border: solid black 1px; */
 }
 
-.experience title {
+.experience-flex {
+    display: flex;
+    /* border: solid black 3px; */
+    height: auto;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.experience-card img{
+    /* width: 25%; */
+    border-radius: 5px;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+}
+
+.experience {
     margin-bottom: 0px;
+}
+
+.experience-text-1 {
+    font-size: 1em;
+}
+
+.experience-text2 {
+    font-size: .75em;
 }
 
 .footer {
